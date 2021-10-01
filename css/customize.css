@@ -28,7 +28,13 @@ ul,ol {
     border: 0;
 }
     
-.silder-wrap {
+/* .silder-wrap {
+    position: absolute;
+    width: 100%;
+    top: 0;
+} */
+
+#carouselExampleIndicators {
     position: absolute;
     width: 100%;
     top: 0;
@@ -45,4 +51,16 @@ h4 i {
 #reviewer {
     width: 40px;
     height: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .h-600 {
+        height: 400px;
+    }
 }
